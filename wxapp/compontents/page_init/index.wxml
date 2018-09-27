@@ -1,0 +1,40 @@
+<!--
+使用： page.xml 文件中：
+1. 先导入
+    <import src="../../components/init_page/index.wxml"/>
+2. 使用：
+  * 没有登录 
+    <template wx:if="{{true}}" is="no_login" data="{{text:'没有购物车数据',icon:'icon-nullgouwuche'}}"/>
+  * 没有数据： 
+    <template wx:if="{{true}}" is="empty_view" data="{{text:'没有数据',icon:'icon-nulldata'}}"/>
+  * 数据加载中：
+    <template wx:if="{{true}}" is="loading_data_view" data="{{text:'数据加载中...'}}"/>
+  * 数据加载失败：
+    <template wx:if="{{true}}" is="empty_view" data="{{text:'数据加载失败',icon:'icon-nulldata'}}"/>
+
+-->
+
+<!--没有登录-->
+<template name="no_login">
+  <view class="df no_login_content {{nf1?'':'f1'}}">
+    <text class="iconfont {{icon || 'icon-nullgouwuche'}} no_login_icon"/>
+    <text class="no_login_text" wx:if="{{text}}">{{text}}</text>
+  </view>
+</template>
+
+<!--空数据-->
+<template name="empty_view">
+  <view class="df empty_view_content">
+    <text class="iconfont {{icon || 'icon-nulldata'}} empty_view_icon"/>
+    <text class="empty_view_text" wx:if="{{text}}">{{text}}</text>
+  </view>
+</template>
+
+<!--数据 加载中-->
+<template name="loading_data_view">
+  <view class="df loading_data_content">
+    <loading>{{text || "数据加载中..."}}</loading>
+  </view>
+</template>
+
+
