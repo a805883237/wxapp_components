@@ -1,6 +1,8 @@
 # modal 处理方案
 原生的wx.showModal 没有动画，过于生硬。用 js/animation / css 实现一个圆滑的modal功能
 
+![效果预览](https://github.com/a805883237/wxapp_components/blob/master/wxapp/compontents/modal/modal_effect_preview.gif)
+
 ### js代码
 ```js
 constructor(props) {
