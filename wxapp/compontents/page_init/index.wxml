@@ -1,0 +1,30 @@
+<!--
+使用： page.xml 文件中：
+1. 先导入
+    <import src="../../components/init_page/index.wxml"/>
+2. 使用：
+  * 没有数据：
+    <template wx:if="{{true}}" is="empty_view" data="{{text:'没有数据',icon:'icon-nulldata'}}"/>
+  * 数据加载中：
+    <template wx:if="{{true}}" is="loading_data_view" data="{{text:'数据加载中...'}}"/>
+  * 数据加载失败：
+    <template wx:if="{{true}}" is="empty_view" data="{{text:'数据加载失败',icon:'icon-nulldata'}}"/>
+
+-->
+
+<!--空数据-->
+<template name="empty_view">
+  <view class="df empty_view_content">
+    <text class="iconfont {{icon || 'icon-nulldata'}} empty_view_icon"/>
+    <text class="empty_view_text" wx:if="{{text}}">{{text}}</text>
+  </view>
+</template>
+
+<!--数据 加载中-->
+<template name="loading_data_view">
+  <view class="df loading_data_content">
+    <loading>{{text || "数据加载中..."}}</loading>
+  </view>
+</template>
+
+

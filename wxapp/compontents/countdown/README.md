@@ -1,5 +1,6 @@
 ## 小程序倒计时组件
 
+![效果预览](https://github.com/a805883237/wxapp_components/blob/master/wxapp/compontents/countdown/countdown_ok.gif)
 
 **日期格式转换 ：end_date.replace(/-/g, "/")**
 **ps : 日期中间的连接符必须是 / 。如果是别的 不支持转换**
