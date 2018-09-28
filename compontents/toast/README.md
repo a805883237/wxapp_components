@@ -1,6 +1,10 @@
 # toast 轻提示
-![效果预览](https://github.com/a805883237/wxapp_components/blob/master/wxapp/compontents/toast/toast_style.jpg)
-![效果预览](https://github.com/a805883237/wxapp_components/blob/master/wxapp/compontents/toast/toast_with_mask.jpg)
+
+**不带遮罩效果**
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/toast/toast_style.jpg)
+**带遮罩效果**
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/toast/toast_with_mask.jpg)
+
 ### js 部分
 ```js
 * 使用方法：
