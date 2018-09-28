@@ -1,9 +1,9 @@
 # toast 轻提示
 
 **不带遮罩效果**
-![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/toast/toast_style.jpg)
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/impress_img/toast_style.jpg)
 **带遮罩效果**
-![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/toast/toast_with_mask.jpg)
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/impress_img/toast_with_mask.jpg)
 
 ### js 部分
 ```js

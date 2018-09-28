@@ -6,10 +6,10 @@
 
 ###### 效果预览
 **没有数据、数据加载失败 ，都可以自定义**
-![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/page_init/empty_data_pic.jpg)
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/impress_img/page_init_empty_data_pic.jpg)
 
 **加载数据，数据加载中**
-![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/compontents/page_init/loading_data_view_img.jpg)
+![效果预览](https://raw.githubusercontent.com/a805883237/wxapp_components/master/impress_img/page_init_loading_data_view_img.jpg)
 
 存在状态如下：
 
