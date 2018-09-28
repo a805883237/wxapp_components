@@ -17,30 +17,30 @@
  ```
  js 部分
  ```js
- 引入：
+ //引入：
  var countdown = require('../../utils/countdown/countdown.js');
- 使用，开始计时：
+ // 使用，开始计时：
  countdown.countdowns(this,{
     now_micro_second: new Date("2018/03/28 18:00:00").getTime() - new Date().getTime(),
     format:"DD:HH:mm:ss"
   },"limit_discount_count");
- * 使用：
-   xml :
-    引入
+ // 使用：
+ //  xml :
+ //   引入
       <import src="../../utils/countdown/countdown.wxml" />
-    开始使用：
+ //   开始使用：
       <template is="countdown" data="{{clock:state.countdownData.clock}}"/>
-      控制样式：
-      .countdown{} 输入样式即可
-    js:
-      引入：
+ //     控制样式：
+      .countdown{} //输入样式即可
+ //   js:
+ //      引入：
         var countdown = require('../../utils/countdown/countdown.js');
-      使用，开始计时：
+ //     使用，开始计时：
       countdown.countdown(this,{
         now_micro_second: new Date("2018/03/28 18:00:00").getTime() - new Date().getTime(),
         format:"DD:HH:mm:ss"
       });
-    切记 一定要 清除
+ //   切记 一定要 清除
      onUnload(){
       countdown.close(this)
     }

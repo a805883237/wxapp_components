@@ -14,11 +14,14 @@ http://blog.csdn.net/rosemarrytop/article/details/56480272
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-// 这里的 icon-kefu 是 icon 名称， \e625是 unicode 必须一一对应， \转译 不可缺少
+/* 这里的 icon-kefu 是 icon 名称， \e625是 unicode 必须一一对应， \转译 不可缺少*/
 .icon-kefu:before { content: "\e625"; }
-
-使用：
+```
+**使用：**
+```xml
 <text class="iconfont icon-jiantou selected_icon"/>
-指定 icon 大小 颜色 以及其他值
+```
+**指定 icon 大小 颜色 以及其他值**
+```css
 .selected_icon{}
 ```

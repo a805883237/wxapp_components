@@ -5,11 +5,12 @@
 
 ### js代码
 ```js
-constructor(props) {
-    this.state = {
-        animationDatas:{}
-    }
-}
+class Page {
+	constructor(props) {
+	    this.state = {
+	        animationDatas:{}
+	    }
+	}
   // 禁止滚动事件 背景图层穿透
   unScrollEnabled(){
   }
@@ -66,6 +67,7 @@ constructor(props) {
       });
     }, 200);
   }
+}
 ```
 
 ```xml
